@@ -1,28 +1,35 @@
-# Portkey Wallet Assets Info
+# Portkey-Wallet/Assets
 
-## Overview
+This repository contains a collection of Symbol icons used by the Portkey Wallet application.
 
-Portkey Wallet token repository is a comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.
+## Introduction
 
-[Portkey Wallet](https://portkey.finance/) uses token logos from this source, alongside a number of other projects.
+Portkey is the first open-source Account Abstraction (AA) wallet in the aelf ecosystem. This repository serves as a centralized storage for the Symbol icons used within the wallet application.
 
-The repository contains token info from several blockchains, info on dApps, staking validators, etc.
-For every token a logo and optional additional information is available (such data is not available on-chain).
+## Directory Structure
 
-Such a large collection can be maintained only through a community effort, so _feel free to add your token_.
+The repository is organized into different directories based on the category of the Symbol icons. The directory structure is as follows:
 
-## How to add token
+```
+Portkey-Wallet/Assets
+├── blockchains
+│   ├── <Symbol-A>
+│   │   └── icon.png
+│   ├── <Symbol-B>
+│   │   └── icon.png
+│   └── ...
+└── ...
+```
 
-If you want to add a new Token, please fork the repository first and then submit a pull request with your changes. Please note that you must create a directory named "\<Token symbol\> / info" in the blockchains directory and upload the Token information to that directory. The file format should be info.json and logo.png.
+## Contribution
 
-## Disclaimer
+If you would like to contribute to this repository by adding more Symbol icons or improving the existing ones, please follow these steps:
 
-Portkey Wallet team allows anyone to submit new assets to this repository. However, this does not mean that we are in direct partnership with all of the projects.
-
-Portkey Wallet team will reject projects that are deemed as scam or fraudulent after careful review.
-Portkey Wallet team reserves the right to change the terms of asset submissions at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.
-
-Additionally, spam-like behavior, including but not limited to mass distribution of tokens to random addresses will result in the asset being flagged as spam and possible removal from the repository.
+1. Fork this repository.
+2. Create a new branch for your changes.
+3. Add the new or modified icons to the appropriate directory.
+4. Commit your changes and push them to your forked repository.
+5. Submit a pull request to merge your changes into the main repository.
 
 ## License
 
