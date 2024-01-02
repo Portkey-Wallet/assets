@@ -1,4 +1,4 @@
-# Portkey-Wallet/Assets
+# Assets
 
 This repository contains a collection of Symbol icons used by the Portkey Wallet application.
 
@@ -21,9 +21,9 @@ Portkey-Wallet/Assets
 └── ...
 ```
 
-## Contribution
+## How to add symbol icons
 
-If you would like to contribute to this repository by adding more Symbol icons or improving the existing ones, please follow these steps:
+If you want to add new symbol icons or improve existing icons, please follow these steps:
 
 1. Fork this repository.
 2. Create a new branch for your changes.
