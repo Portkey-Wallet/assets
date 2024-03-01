@@ -1,4 +1,4 @@
-# Assets
+# Portkey Assets
 
 This repository contains a collection of Symbol icons used by the Portkey Wallet application.
 
